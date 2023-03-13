@@ -1,7 +1,7 @@
 /* eslint-disable no-useless-escape */
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
-// import  Resume from '../../assets';
+// import  Resume from '..src/assets/barry-hardacre(1).pdf';
 
 import './style.css';
 
@@ -17,12 +17,12 @@ function About() {
                 <p>.</p>
             </div>
 
-             <p>
-                <a href = "Resume" target="_blank" className="resume-btn btn text-center">
+             {/* <p>
+                <a href = {Resume }target="_blank" className="resume-btn btn text-center">
                     <i className="fa fa-download"></i>
                 Download Resume
             </a>
-            </p> 
+            </p>  */}
         </section>
     );
 }
